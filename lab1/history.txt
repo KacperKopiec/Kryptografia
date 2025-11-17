@@ -1,0 +1,62 @@
+10608  echo "Example Message" > file.txt
+10609  bat file.txt
+10610  gpg --encrypt --symmetric
+10611  gpg --symmetrix file.txt
+10612  gpg --symmetric file.txt
+10613  ls
+10614  bat file.txt
+10615  gpg --decrypt file.txt
+10616  gpg --decrypt file.txt.gpg
+10617  rm file.txt
+10618  ls
+10619  bat file.txt.gpg
+10620  gpg file.txt.gpg
+10621  ls
+10622  bat file.txt
+10623  rm file.txt
+10624  nmtui
+10625  cd school/Sem5
+10626  cd krypto
+10627  cd lab1
+10628  clear
+10629  gpg --gen
+10630  gpg --gen-key
+10631  ls
+10632  gpg --help
+10633  gpg -k
+10634  gpg --export
+10635  gpg --list-keys
+10636  gpg --armor --export kkopiec@student.agh.edu.pl
+10637  ls
+10638  gpg --output kacper.gpg --armor --export kkopiec@student.agh.edu.pl
+10639  ls
+10640  bat kacper.gpg
+10641  rm kacper.gpg
+10642  gpg --output kacper_public_key.asc --armor --export kkopiec@student.agh.edu.pl
+10643  ls
+10644  gpg --import ola2.asc
+10645  gpg file.txt.gpg
+10646  ls
+10647  bat file.txt
+10648  gpg --list-keys
+10649  gpg --fingerprint kkopiec@student.agh.edu.pl
+10650  gpg -sign-key azwonek@student.agh.edu.pl
+10651  gpg --sign-key azwonek@student.agh.edu.pl
+10652  ls
+10653  gpg --check-signs
+10654  gpg --check-sigs
+10655  gpg --fingerprint
+10656  gpg --fingerprint kkopiec@student.agh.edu.pl
+10657  history
+10658  echo "To tajna wiadomość" | gpg --armor --encrypt --sign --recipient azwonek@student.agh.edu.pl > message.asc\n
+10659  ls
+10660  code message2.asc
+10661  gpg --decrypt message2.asc > decrypted_msg2.txt
+10662  bat decrypted_msg2.txt
+10663  nmtui
+10664  cd school/Sem5
+10665  ls
+10666  cd krypto
+10667  ls
+10668  cd lab1
+10669  gpg --card-edit
